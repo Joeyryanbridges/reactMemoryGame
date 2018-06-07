@@ -1,6 +1,10 @@
 .jumbotron {
     padding: 4rem 0rem;
     margin-bottom: 0rem;
-    background-color: #ffcbac;
+    background-color: #bba090;
     border-radius: .3rem;
+}
+
+h1 {
+    font-family: 'Megrim', cursive;
 }
