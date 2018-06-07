@@ -1,3 +1,41 @@
-form .form-inline {
-    padding-left: 66%;
+.form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 71%;
+}
+   .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    font-family: 'Amatic SC', cursive;  
+    white-space: nowrap;
+}
+.fa, .fab, .fal, .far, .fas{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    padding-right: 0px;     
+}
+i.fab.fa-react {
+    content: "\f41b";
+    padding-right: 6px;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 0.25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    margin-right: 3px;
 }

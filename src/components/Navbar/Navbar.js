@@ -8,7 +8,6 @@ const Navbar = () => (
                 Joey R. Bridges
             </a>
             <form class="form-inline">
-
                 <button class="btn btn-sm btn-outline-secondary right" type="button">Portfolio</button>
                 <button class="btn btn-sm btn-outline-secondary" type="button">GitHub</button>
                 <button class="btn btn-sm btn-outline-secondary" type="button">LinkedIn</button>
