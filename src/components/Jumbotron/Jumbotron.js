@@ -5,7 +5,7 @@ const Jumbotron = () => (
 
     <div className="container">
         <div className="jumbotron">
-            <h1><center>React.js Memory Game</center></h1>
+            <h1><center>React.js Color Memory Game</center></h1>
         </div>
     </div>
 );
