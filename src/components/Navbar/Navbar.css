@@ -5,7 +5,7 @@
     flex-flow: row wrap;
     -ms-flex-align: center;
     align-items: center;
-    padding-left: 71%;
+    padding-left: 59%;
 }
    .navbar-brand {
     display: inline-block;
@@ -30,6 +30,7 @@
 i.fab.fa-react {
     content: "\f41b";
     padding-right: 6px;
+    font-family: 'Amatic SC', cursive;  
 }
 
 .btn-group-sm>.btn, .btn-sm {

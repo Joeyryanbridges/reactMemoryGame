@@ -5,7 +5,7 @@ const Navbar = () => (
     <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="https://github.com/Joeyryanbridges/reactmemorygame">
-                Joey R. Bridges
+                <i class="fab fa-react">Joey R. Bridges</i>
             </a>
             <form class="form-inline">
                 <button class="btn btn-sm btn-outline-secondary right" type="button">Portfolio</button>
