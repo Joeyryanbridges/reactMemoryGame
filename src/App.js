@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
-import Col from "./components/Col";
 import Row from "./components/Row";
-
+import Score from "./components/Score";
 import colors from "./colors.json";
+import ColorCard from "./components/ColorCard";
 
 
 class App extends Component {
@@ -30,11 +30,26 @@ class App extends Component {
             <div className="container">
                 <Wrapper />
                 <Navbar />
-                <Jumbotron />
                 <Row />
-                <Col />
+                <div className="col-12">
+                    <Jumbotron />
+                </div>
+                <Row />
+                <div className="col-6">
+                    <Score />
+                </div>
+                <Row />
+                <div className="col-12">
+                    {this.state.colors.map(colors => (
+                        <ColorCard
+                            id={colors.id}
+                            key={colors.id}
+                            cardImage={colors.image}
+                            shuffle={this.suffleCards}
+                        />
+                    ))}
+                </div>
             </div>
-
         );
     }
 }
