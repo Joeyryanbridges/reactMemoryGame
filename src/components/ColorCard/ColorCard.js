@@ -1,10 +1,10 @@
 import React from "react";
 import "./ColorCard.css";
 
-const ColorCard = props => (
-    <div onClick={() => props.setClicked(props.id)} className="card">
+const ColorCard = (props) => (
+    <div className="card">
         <div className="img-container">
-            <img alt={props.name} src={props.image} />
+            <img onClick={() => props.shuffle(props.id)} className="shuffle" alt={props.name} src={props.image} />
         </div>
     </div>
 );

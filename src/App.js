@@ -1,41 +1,40 @@
 import React, { Component } from "react";
+import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
-import Wrapper from "./components/Wrapper";
+import Col from "./components/Col";
+import Row from "./components/Row";
+
 import colors from "./colors.json";
 
 
-class App extends component {
+class App extends Component {
     state = {
-        colors: colors,
-        score: 0,
-        highScore: 0,
-        clickCards: [],
-        message: "Click an image to begin"
+        colors
     };
-    // Setting this.state.colors to the colors json array
-    setClicked = id => {
 
-        //Make copy of the state colors array
-        const colors = this.state.colors;
+    shuffleCards = () => {
+        const colorCardSelect = this.state.colors;
+        for (let a = colorCardSelect.length - 1; a >= 0; a--) {
+            const b = Math.floor(Math.random() * (a + 1));
+            [colorCardSelect[a], colorCardSelect[b]] = [colorCardSelect[b], colorCardSelect[a]];
 
-        //Filter for the clicked color
-        const clickedColor = colors.filter(color => color.id === id);
-
-
+        }
+        this.setState({
+            colors: colorCardSelect
+        })
     }
 
     render() {
         return (
-            <Container>
-                <Navbar
-                    score={this.state.score}
-                    message={this.state.message}
-                    highScore={this.state.highScore}
-                />
-                <Row>
-                </Row>
-            </Container>
+            <div className="container">
+                <Wrapper />
+                <Navbar />
+                <Jumbotron />
+                <Row />
+                <Col />
+            </div>
+
         );
     }
 }
