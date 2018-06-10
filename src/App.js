@@ -9,6 +9,7 @@ import ColorCard from "./components/ColorCard";
 
 
 class App extends Component {
+
     state = {
         colors
     };
@@ -40,11 +41,11 @@ class App extends Component {
                 </div>
                 <Row />
                 <div className="col-12">
-                    {this.state.colors.map(colors => (
+                    {this.state.colors.map(color => (
                         <ColorCard
-                            id={colors.id}
-                            key={colors.id}
-                            cardImage={colors.image}
+                            id={color.id}
+                            key={color.id}
+                            cardImage={color.image}
                             shuffle={this.suffleCards}
                         />
                     ))}
