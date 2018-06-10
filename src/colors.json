@@ -2,73 +2,73 @@
     {
         "_comment": "red",
         "id": 1,
-        "image": "./assets/images/red.png",
+        "image": "./images/red.png",
         "clicked": false
     },
     {
         "_comment": "blue",
         "id": 2,
-        "image": "./assets/images/blue.png",
+        "image": "./images/blue.png",
         "clicked": false
     },
     {
         "_comment": "green",
         "id": 3,
-        "image": "./assets/images/green.png",
+        "image": "./images/green.png",
         "clicked": false
     },
     {
         "_comment": "purple",
         "id": 4,
-        "image": "./assets/images/purple.png",
+        "image": "./images/purple.png",
         "clicked": false
     },
     {
         "_comment": "orange",
         "id": 5,
-        "image": "./assets/images/orange.png",
+        "image": "./images/orange.png",
         "clicked": false
     },
     {
         "_comment": "brown",
         "id": 6,
-        "image": "./assets/images/brown.png",
+        "image": "./images/brown.png",
         "clicked": false
     },
     {
         "_comment": "yellow",
         "id": 7,
-        "image": "./assets/images/yellow.png",
+        "image": "./images/yellow.png",
         "clicked": false
     },
     {
         "_comment": "black",
         "id": 8,
-        "image": "./assets/images/black.png",
+        "image": "./images/black.png",
         "clicked": false
     },
     {
         "_comment": "pink",
         "id": 9,
-        "image": "./assets/images/pink.png",
+        "image": "./images/pink.png",
         "clicked": false
     },
     {
         "_comment": "gray",
         "id": 10,
-        "image": "./assets/images/gray.png",
+        "image": "./images/gray.png",
         "clicked": false
     },
     {
         "_comment": "turquoise",
         "id": 11,
-        "image": "./assets/images/turquoise.jpg",
+        "image": "./images/turquoise.jpg",
         "clicked": false
     },
     {
         "_comment": "white",
         "id": 12,
-        "image": "./assets/images/white.png",
+        "image": "./images/white.png",
         "clicked": false
     }
 ]

@@ -11,7 +11,9 @@ import ColorCard from "./components/ColorCard";
 class App extends Component {
 
     state = {
-        colors
+        colors,
+        score: 0
+
     };
 
     shuffleCards = () => {
@@ -31,13 +33,12 @@ class App extends Component {
             <div className="container">
                 <Wrapper />
                 <Navbar />
-                <Row />
-                <div className="col-12">
-                    <Jumbotron />
-                </div>
+                <Jumbotron />
                 <Row />
                 <div className="col-6">
-                    <Score />
+                    <Score
+                        score={this.state.score}
+                    />
                 </div>
                 <Row />
                 <div className="col-12">
@@ -45,11 +46,12 @@ class App extends Component {
                         <ColorCard
                             id={color.id}
                             key={color.id}
-                            cardImage={color.image}
+                            image={color.image}
                             shuffle={this.suffleCards}
                         />
                     ))}
-                </div>
+
+                </div >
             </div>
         );
     }
