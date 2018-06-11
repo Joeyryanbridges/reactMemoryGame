@@ -16,6 +16,8 @@ class App extends Component {
 
     };
 
+
+
     shuffleCards = () => {
         const colorCardSelect = this.state.colors;
         for (let a = colorCardSelect.length - 1; a >= 0; a--) {
@@ -35,7 +37,7 @@ class App extends Component {
                 <Navbar />
                 <Jumbotron />
                 <Row />
-                <div className="col-6">
+                <div className="col-12">
                     <Score
                         score={this.state.score}
                     />
@@ -47,7 +49,7 @@ class App extends Component {
                             id={color.id}
                             key={color.id}
                             image={color.image}
-                            shuffle={this.suffleCards}
+                            shuffleCards={this.shuffleCards}
                         />
                     ))}
 
