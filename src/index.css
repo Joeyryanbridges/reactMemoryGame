@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: lightgray;
+  background: rgba(18, 14, 14, 0.47);
 }
 
   .row {

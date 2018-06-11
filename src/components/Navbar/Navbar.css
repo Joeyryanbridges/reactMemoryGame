@@ -50,7 +50,7 @@ i.fab.fa-react {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 1.5rem 1rem;
+    padding: -1.5rem 0rem;
     border-radius: 10px;
 }
 .bg-light {

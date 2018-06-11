@@ -5,6 +5,7 @@ import Jumbotron from "./components/Jumbotron";
 import Score from "./components/Score";
 import colors from "./colors.json";
 import ColorCard from "./components/ColorCard";
+import "./App.css";
 
 
 class App extends Component {
