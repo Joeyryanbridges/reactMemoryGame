@@ -14,7 +14,7 @@
     margin-right: 1rem;
     font-size: 1.25rem;
     line-height: inherit;
-    font-family: 'Amatic SC', cursive;  
+    font-family: 'Amatic SC', cursive; 
     white-space: nowrap;
 }
 .fa, .fab, .fal, .far, .fas{
@@ -54,5 +54,9 @@ i.fab.fa-react {
     border-radius: 10px;
 }
 .bg-light {
-    background-color: #ececec!important;
+    background-color: #00000000!important;
+}
+
+h6, h4 {
+    color: white; 
 }

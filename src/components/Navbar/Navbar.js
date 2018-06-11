@@ -8,9 +8,9 @@ const Navbar = () => (
                 <h6>created by:</h6><h4>Joey R. Bridges</h4>
             </a>
             <form class="form-inline">
-                <button className="btn btn-sm btn-outline-secondary" href="https://joeyryanbridges.github.io/joeybridgesportfolio/" type="button">Portfolio</button>
-                <button class="btn btn-sm btn-outline-secondary" type="button">GitHub</button>
-                <button class="btn btn-sm btn-outline-secondary" type="button">LinkedIn</button>
+                <button className="btn btn-sm btn-outline-primary" href="https://joeyryanbridges.github.io/joeybridgesportfolio/" type="button">Portfolio</button>
+                <button class="btn btn-sm btn-outline-warning" type="button">GitHub</button>
+                <button class="btn btn-sm btn-outline-danger" type="button">LinkedIn</button>
             </form>
         </nav>
     </div>

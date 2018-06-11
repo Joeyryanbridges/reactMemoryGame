@@ -1,4 +1,8 @@
 .h3, h3 {
     font-size: 1.75rem;
     padding-right: 80px;
+    font-family: 'Megrim', cursive;
+    padding-top: 15px;
+    padding-bottom: 6px;
+    color: white; 
 }
