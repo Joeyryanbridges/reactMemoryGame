@@ -4,3 +4,13 @@ body {
   font-family: sans-serif;
   background: lightgray;
 }
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: 67px;
+}
+

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
-import Row from "./components/Row";
 import Score from "./components/Score";
 import colors from "./colors.json";
 import ColorCard from "./components/ColorCard";
@@ -12,10 +11,8 @@ class App extends Component {
 
     state = {
         colors,
-        score: 0
-
+        score: 0,
     };
-
 
 
     shuffleCards = () => {
@@ -36,25 +33,27 @@ class App extends Component {
                 <Wrapper />
                 <Navbar />
                 <Jumbotron />
-                <Row />
-                <div className="col-12">
-                    <Score
-                        score={this.state.score}
-                    />
-                </div>
-                <Row />
-                <div className="col-12">
-                    {this.state.colors.map(color => (
-                        <ColorCard
-                            id={color.id}
-                            key={color.id}
-                            image={color.image}
-                            shuffleCards={this.shuffleCards}
+                <div className="row">
+                    <div className="col-12">
+                        <Score
+                            score={this.state.score}
                         />
-                    ))}
-
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12">
+                        {this.state.colors.map(color => (
+                            <ColorCard
+                                id={color.id}
+                                key={color.id}
+                                image={color.image}
+                                shuffleCards={this.shuffleCards}
+                            />
+                        ))}
+                    </div>
                 </div >
-            </div>
+            </div >
+
         );
     }
 }

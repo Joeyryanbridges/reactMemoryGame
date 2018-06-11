@@ -2,7 +2,7 @@
     {
         "_comment": "red",
         "id": 1,
-        "image": "./images/red.png",
+        "image": "./images/red.jpg",
         "clicked": false
     },
     {
@@ -32,7 +32,7 @@
     {
         "_comment": "brown",
         "id": 6,
-        "image": "./images/brown.png",
+        "image": "./images/brown.jpg",
         "clicked": false
     },
     {
