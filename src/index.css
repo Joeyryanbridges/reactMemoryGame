@@ -14,3 +14,11 @@ body {
     margin-left: 67px;
 }
 
+img {
+  vertical-align: middle;
+  border-style: none;
+  padding-right: 7px;
+  padding-left: -6px;
+  padding-bottom: 8px;
+}
+
