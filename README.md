@@ -1,5 +1,4 @@
 ![screen shot 2018-06-12 at 12 04 02 am](https://user-images.githubusercontent.com/32920544/41275045-72b0e408-6dd4-11e8-93db-e6c49d111ae7.jpg)
-![screen shot 2018-06-12 at 12 04 39 am](https://user-images.githubusercontent.com/32920544/41275199-f73151b8-6dd4-11e8-9e04-6df798adacab.jpg)
 
 # Clicky Game
 
@@ -28,6 +27,9 @@ For this assignment, you'll create a memory game with React. This assignment wil
 7. When complete, the application should be deployed to Github Pages. See the README generated with Create React App for instructions on deploying the application to Github Pages.
 
 - - -
+
+![screen shot 2018-06-12 at 12 05 07 am](https://user-images.githubusercontent.com/32920544/41275250-18964a84-6dd5-11e8-9790-c0a41061c3a9.jpg)
+![screen shot 2018-06-12 at 12 05 43 am](https://user-images.githubusercontent.com/32920544/41275257-1a021696-6dd5-11e8-9035-4cc3b9af32b3.jpg)
 
 #### Minimum Requirements
 
