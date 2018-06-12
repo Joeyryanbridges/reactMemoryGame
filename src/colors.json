@@ -1,72 +1,60 @@
 [
     {
-        "_comment": "red",
         "id": 1,
         "image": "./images/red.jpg",
         "name": "red"
     },
     {
-        "_comment": "blue",
         "id": 2,
         "image": "./images/blue.png",
         "name": "blue"
     },
     {
-        "_comment": "green",
         "id": 3,
         "image": "./images/green.png",
         "name": "green"
     },
     {
-        "_comment": "purple",
         "id": 4,
         "image": "./images/purple.png",
         "name": "purple"
     },
     {
-        "_comment": "orange",
         "id": 5,
         "image": "./images/orange.png",
         "name": "orange"
     },
     {
-        "_comment": "brown",
         "id": 6,
         "image": "./images/brown.jpg",
         "name": "brown"
     },
     {
-        "_comment": "yellow",
         "id": 7,
         "image": "./images/yellow.png",
         "name": "yellow"
     },
     {
-        "_comment": "black",
         "id": 8,
         "image": "./images/black.png",
         "name": "black"
     },
     {
-        "_comment": "pink",
         "id": 9,
         "image": "./images/pink.png",
         "name": "pink"
     },
     {
-        "_comment": "gray",
         "id": 10,
         "image": "./images/gray.png",
         "name": "gray"
     },
     {
-        "_comment": "turquoise",
         "id": 11,
         "image": "./images/turquoise.jpg",
         "name": "turquoise"
     },
     {
-        "_comment": "white",
         "id": 12,
         "image": "./images/white.png",
         "name": "white"

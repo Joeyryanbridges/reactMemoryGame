@@ -19,7 +19,7 @@ class App extends Component {
         const colorName = e.target.name
         const colorId = e.target.id
         if (this.state.clicked.includes(colorId)) {
-            alert(`You've already selected ${colorName}\n\nGame restarting`)
+            alert(`You've already selected ${colorName}\n\nGame will restart`)
             this.setState({
                 score: 0,
                 clicked: [],
@@ -31,6 +31,13 @@ class App extends Component {
                 score: this.state.score + 1,
                 clicked: colorArray
             })
+            if (this.state.score === 11) {
+                alert('You beat Colors!');
+                this.setState({
+                    score: 0,
+                    clicked: []
+                })
+            }
         }
         this.shuffleCards();
     }
