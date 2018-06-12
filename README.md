@@ -29,7 +29,7 @@ For this assignment, you'll create a memory game with React. This assignment wil
 - - -
 
 ![screen shot 2018-06-12 at 12 05 07 am](https://user-images.githubusercontent.com/32920544/41275250-18964a84-6dd5-11e8-9790-c0a41061c3a9.jpg)
-![screen shot 2018-06-12 at 12 05 43 am](https://user-images.githubusercontent.com/32920544/41275257-1a021696-6dd5-11e8-9035-4cc3b9af32b3.jpg)
+![screen shot 2018-06-12 at 12 13 35 am](https://user-images.githubusercontent.com/32920544/41275356-86946412-6dd5-11e8-879a-0648ff3c8774.jpg)
 
 #### Minimum Requirements
 
