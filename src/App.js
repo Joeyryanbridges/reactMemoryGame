@@ -15,6 +15,25 @@ class App extends Component {
         score: 0,
     };
 
+    colorClicked = (e) => {
+        const colorName = e.target.name
+        const colorId = e.target.id
+        if (this.state.clicked.includes(colorId)) {
+            alert(`You've already selected ${colorName}\n\nGame restarting`)
+            this.setState({
+                score: 0,
+                clicked: [],
+            })
+        } else {
+            const colorArray = this.state.clicked
+            colorArray.push(colorId)
+            this.setState({
+                score: this.state.score + 1,
+                clicked: colorArray
+            })
+        }
+        this.shuffleCards();
+    }
 
     shuffleCards = () => {
         const colorCardSelect = this.state.colors;
@@ -49,6 +68,7 @@ class App extends Component {
                                 key={color.id}
                                 image={color.image}
                                 shuffleCards={this.shuffleCards}
+                                colorClicked={this.colorClicked}
                             />
                         ))}
                     </div>

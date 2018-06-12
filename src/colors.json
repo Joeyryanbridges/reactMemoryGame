@@ -3,72 +3,72 @@
         "_comment": "red",
         "id": 1,
         "image": "./images/red.jpg",
-        "clicked": false
+        "name": "red"
     },
     {
         "_comment": "blue",
         "id": 2,
         "image": "./images/blue.png",
-        "clicked": false
+        "name": "blue"
     },
     {
         "_comment": "green",
         "id": 3,
         "image": "./images/green.png",
-        "clicked": false
+        "name": "green"
     },
     {
         "_comment": "purple",
         "id": 4,
         "image": "./images/purple.png",
-        "clicked": false
+        "name": "purple"
     },
     {
         "_comment": "orange",
         "id": 5,
         "image": "./images/orange.png",
-        "clicked": false
+        "name": "orange"
     },
     {
         "_comment": "brown",
         "id": 6,
         "image": "./images/brown.jpg",
-        "clicked": false
+        "name": "brown"
     },
     {
         "_comment": "yellow",
         "id": 7,
         "image": "./images/yellow.png",
-        "clicked": false
+        "name": "yellow"
     },
     {
         "_comment": "black",
         "id": 8,
         "image": "./images/black.png",
-        "clicked": false
+        "name": "black"
     },
     {
         "_comment": "pink",
         "id": 9,
         "image": "./images/pink.png",
-        "clicked": false
+        "name": "pink"
     },
     {
         "_comment": "gray",
         "id": 10,
         "image": "./images/gray.png",
-        "clicked": false
+        "name": "gray"
     },
     {
         "_comment": "turquoise",
         "id": 11,
         "image": "./images/turquoise.jpg",
-        "clicked": false
+        "name": "turquoise"
     },
     {
         "_comment": "white",
         "id": 12,
         "image": "./images/white.png",
-        "clicked": false
+        "name": "white"
     }
 ]
