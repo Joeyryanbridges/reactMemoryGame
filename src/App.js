@@ -13,11 +13,12 @@ class App extends Component {
     state = {
         colors,
         score: 0,
+        clicked: []
     };
 
     colorClicked = (e) => {
-        const colorName = e.target.name
         const colorId = e.target.id
+        const colorName = e.target.name
         if (this.state.clicked.includes(colorId)) {
             alert(`You've already selected ${colorName}\n\nGame will restart`)
             this.setState({
