@@ -60,3 +60,23 @@ i.fab.fa-react {
 h6, h4 {
     color: white; 
 }
+
+
+/*980PX*/
+@media screen and (max-width:980px) {
+
+}
+/*768PX*/
+@media screen and (max-width:768px) {
+  .form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-left: 0%;
+  }
+}
+
+/*640PX*/
+@media screen and (max-width:640px) {
+    
+}

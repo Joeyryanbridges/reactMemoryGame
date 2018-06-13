@@ -22,3 +22,19 @@ img {
   padding-bottom: 8px;
 }
 
+/*980PX*/
+@media screen and (max-width:980px) {
+
+}
+/*768PX*/
+@media screen and (max-width:768px) {
+ 
+  }
+
+/*640PX*/
+@media screen and (max-width:640px) {
+
+}
+
+
+
