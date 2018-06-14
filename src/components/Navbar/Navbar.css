@@ -64,7 +64,12 @@ h6, h4 {
 
 /*980PX*/
 @media screen and (max-width:980px) {
-
+    .form-inline {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        padding-left: 0%;
+      }
 }
 /*768PX*/
 @media screen and (max-width:768px) {
