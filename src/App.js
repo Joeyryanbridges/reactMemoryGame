@@ -20,7 +20,7 @@ class App extends Component {
         const colorId = e.target.id
         const colorName = e.target.name
         if (this.state.clicked.includes(colorId)) {
-            alert(`You've already selected ${colorName}\n\nGame will restart`)
+            alert(`Dude, you can't choose the same color twice!!! ${colorName}\n\nCLICK OK TO RESTART`)
             this.setState({
                 score: 0,
                 clicked: [],

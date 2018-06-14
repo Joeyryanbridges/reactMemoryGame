@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "animate.css": "^3.6.1",
-    "react": "^16.4.0",
+    "modal": "^1.2.0",
+    "react": "^16.4.1",
     "react-dom": "^16.4.0",
+    "react-modal": "^3.4.5",
     "react-scripts": "1.1.4"
   },
   "scripts": {
