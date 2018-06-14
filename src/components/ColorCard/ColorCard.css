@@ -1,0 +1,17 @@
+img {
+    /* -webkit-box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.5); */
+    /* box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.5); */
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    vertical-align: middle;
+    border-style: none;
+    padding-right: 11px;
+    padding-left: -6px;
+    padding-bottom: 12px;
+}
+
+img:hover{
+cursor: pointer;
+transform: scale(1.11, 1.11);
+}

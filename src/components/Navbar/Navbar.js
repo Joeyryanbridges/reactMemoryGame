@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => (
-    <div className="container">
+    <div className="container animated slideInRight">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="https://github.com/Joeyryanbridges/reactmemorygame">
                 <h6>created by:</h6><h4>Joey R. Bridges</h4>

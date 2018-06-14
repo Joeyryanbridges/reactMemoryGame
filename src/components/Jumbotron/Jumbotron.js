@@ -3,7 +3,7 @@ import "./Jumbotron.css";
 
 const Jumbotron = () => (
 
-    <div className="container">
+    <div className="container animated slideInRight">
         <div className="jumbotron">
             <h1><center>colors</center></h1>
         </div>

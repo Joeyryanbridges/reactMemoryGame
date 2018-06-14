@@ -61,14 +61,14 @@ class App extends Component {
                 <Wrapper />
                 <Navbar />
                 <Jumbotron />
-                <div className="row">
+                <div className="row animated slideInUp">
                     <div className="col-12">
                         <Score
                             score={this.state.score}
                         />
                     </div>
                 </div>
-                <div className="row">
+                <div className="row animated slideInUp">
                     <div className="col-12">
                         {this.state.colors.map(color => (
                             <ColorCard
